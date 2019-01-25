@@ -8,7 +8,7 @@ Design systems allow developers to build with efficiency and consistency
 
 ## Fundementals
 
-The ECESOC design system takes inspiration from [Tachyons](https://tachyons.io/) with hopes of being lightwieight, functional, and 100% responsive.
+The ECESOC design system is based on [Tachyons](https://tachyons.io/) making it lightwieight, functional, and 100% responsive.
 
 ## Contributing
 
