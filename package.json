@@ -5,10 +5,10 @@
   "scripts": {
     "start": "tachyons src/styles.css --minify > css/t.min.css",
     "start": "npm run build:watch",
-    "mutations": "immutable-css src/tachyons.css --strict",
+    "mutations": "immutable-css src/ecesoc-style.css --strict",
     "build": "npm run build:css && npm run build:minify",
-    "build:css": "tachyons src/styles.css > css/ecesoc-style.css",
-    "build:minify": "tachyons src/styles.css --minify > css/ecesoc-style.min.css",
+    "build:css": "tachyons src/ecesoc-style.css > css/ecesoc-style.css",
+    "build:minify": "tachyons src/ecesoc-style.css --minify > css/ecesoc-style.min.css",
     "build:watch": "watch \"npm run build\" ./src/"
   },
   "repository": "UWaterlooECEsociety/style",
