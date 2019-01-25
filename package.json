@@ -1,0 +1,20 @@
+{
+  "name": "ecesoc-style",
+  "version": "0.1.0",
+  "description": "Design system to UW ECESOC websites and posters",
+  "scripts": {
+    "start": "tachyons src/styles.css --minify > css/t.min.css",
+    "start": "npm run build:watch",
+    "mutations": "immutable-css src/tachyons.css --strict",
+    "build": "npm run build:css && npm run build:minify",
+    "build:css": "tachyons src/styles.css > css/ecesoc-style.css",
+    "build:minify": "tachyons src/styles.css --minify > css/ecesoc-style.min.css",
+    "build:watch": "watch \"npm run build\" ./src/"
+  },
+  "repository": "UWaterlooECEsociety/style",
+  "license": "MIT",
+  "devDependencies": {
+    "tachyons": "^4.7.0",
+    "tachyons-cli": "^1.0.10"
+  }
+}

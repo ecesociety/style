@@ -1,0 +1,48 @@
+/*
+
+   SKINS
+   Docs: http://tachyons.io/docs/themes/skins/
+
+   Classes for setting foreground and background colors on elements.
+   If you haven't declared a border color, but set border on an element, it will 
+   be set to the current text color. 
+
+*/
+
+/* Text colors */
+
+.black-50 {         color: var(--black-50); }
+.black-35 {         color: var(--black-35); }
+.black-15 {         color: var(--black-15); }
+
+.black {         color: var(--black); }
+.white {         color: var(--white); }
+
+.dark-purple { color: var(--dark-purple); }
+.purple { color: var(--purple); }
+.light-purple { color: var(--light-purple); }
+.dark-gold { color: var(--dark-gold); }
+.gold { color: var(--gold); }
+.light-gold { color: var(--light-gold); }
+.washed-purple { color: var(--washed-purple); }
+.washed-gold { color: var(--washed-gold); }
+.color-inherit { color: inherit; }
+
+
+
+/* Background colors */
+
+.bg-black-50 {         background-color: var(--black-50); }
+.bg-black-30 {         background-color: var(--black-30); }
+.bg-black-10 {         background-color: var(--black-10); }
+.bg-white    {         background-color: var(--white);    }
+
+.bg-dark-purple { background-color: var(--dark-purple); }
+.bg-purple { background-color: var(--purple); }
+.bg-light-purple { background-color: var(--light-purple); }
+.bg-dark-gold { background-color: var(--dark-gold); }
+.bg-gold { background-color: var(--gold); }
+.bg-light-gold { background-color: var(--light-gold); }
+.bg-washed-purple { background-color: var(--washed-purple); }
+.bg-inherit { background-color: inherit; }
+

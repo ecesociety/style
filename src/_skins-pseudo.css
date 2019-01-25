@@ -1,0 +1,69 @@
+/* 
+  
+   SKINS:PSEUDO
+
+   Customize the color of an element when
+   it is focused or hovered over.
+ 
+ */
+
+.hover-black:hover, 
+.hover-black:focus { color: var(--black); }
+.hover-black-50:hover, 
+.hover-black-50:focus { color: var(--black-50); }
+.hover-black-35:hover, 
+.hover-black-35:focus { color: var(--black-35); }
+.hover-black-15:hover, 
+.hover-black-15:focus { color: var(--black-15); }
+.hover-white:hover, 
+.hover-white:focus { color: var(--white); }
+
+.hover-bg-black:hover, 
+.hover-bg-black:focus { background-color: var(--black); }
+.hover-bg-black-50:hover, 
+.hover-bg-black-50:focus { background-color: var(--black-50); }
+.hover-bg-black-35:hover, 
+.hover-bg-black-35:focus { background-color: var(--black-35); }
+.hover-bg-black-15:hover, 
+.hover-bg-black-15:focus { background-color: var(--black-15); }
+.hover-bg-white:hover, 
+.hover-bg-white:focus { background-color: var(--white); }
+
+.hover-bg-transparent:hover,
+.hover-bg-transparent:focus { background-color: var(--transparent); }
+
+.hover-dark-purple:hover,
+.hover-dark-purple:focus { color: var(--dark-purple); }
+.hover-purple:hover,
+.hover-purple:focus { color: var(--purple); }
+.hover-lightpurple:hover,
+.hover-light-purple:focus { color: var(--light-purple); }
+.hover-dark-gold:hover,
+.hover-dark-gold:focus { color: var(--dark-gold); }
+.hover-gold:hover,
+.hover-gold:focus { color: var(--gold); }
+.hover-light-gold:hover,
+.hover-light-gold:focus { color: var(--light-gold); }
+.hover-washed-purple:focus { color: var(--washed-purple); }
+.hover-washed-gold:hover,
+.hover-washed-gold:focus { color: var(--washed-purple); }
+
+.hover-bg-dark-purple:hover,
+.hover-bg-dark-purple:focus { background-color: var(--dark-purple); }
+.hover-bg-purple:hover,
+.hover-bg-purple:focus { background-color: var(--purple); }
+.hover-bg-light-purple:hover,
+.hover-bg-light-purple:focus { background-color: var(--light-purple); }
+.hover-bg-dark-gold:hover,
+.hover-bg-dark-gold:focus { background-color: var(--dark-gold); }
+.hover-bg-gold:hover,
+.hover-bg-gold:focus { background-color: var(--gold); }
+.hover-bg-light-gold:hover,
+.hover-bg-light-gold:focus { background-color: var(--light-gold); }
+.hover-bg-washed-purple:hover,
+.hover-bg-washed-purple:focus { background-color: var(--washed-purple); }
+.hover-bg-washed-gold:hover,
+.hover-bg-washed-gold:focus { background-color: var(--washed-gold); }
+.hover-bg-inherit:hover,
+.hover-bg-inherit:focus { background-color: inherit; }
+

@@ -1,0 +1,34 @@
+/* UW ECE Society
+
+   COLOR VARIABLES
+   Grayscale
+   - Solids
+   - Transparencies
+   Colors
+*/
+
+:root {
+  /* Solids */
+  --black: #000000;
+  --dark-gold: #E4B429;
+  --gold: #FFD54F;
+  --light-gold: #FFEA3D;
+  --dark-purple: #57058B;
+  --purple: #8100B4;
+  --light-purple: #BE33DA;
+  --white: #FFFFFF;
+
+  /* Greyscale */
+  --black-50: #787878;
+  --black-35: #A2A2A2;
+  --black-15: #DFDFDF;
+
+  /* Washes */
+  --washed-gold: #FFFFAA;
+  --washed-purple: #D0B4E7;
+
+  /* Transparent */
+  --transparent:transparent;
+	
+}
+
