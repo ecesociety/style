@@ -1,6 +1,6 @@
 # ECESOC Design System
 
-Design system and component library for the Waterloo ECE Soceity
+The design system and component library for the Waterloo ECE Soceity
 
 ## Rationale
 
@@ -12,8 +12,11 @@ The ECESOC design system is based on [Tachyons](https://tachyons.io/) making it 
 
 ## Contributing
 
-See the [contribution guide](/CONTRIBUTING.md)
+You must rebuild after making changes to the css found in /src
 
+```console
+    npm build
+```
 
 ## License
 
