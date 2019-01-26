@@ -15,7 +15,9 @@ The ECESOC design system is based on [Tachyons](https://tachyons.io/) making it 
 You must rebuild after making changes to the css found in /src
 
 ```console
-    npm build
+
+npm build
+
 ```
 
 ## License
